@@ -1,0 +1,19 @@
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore local builds
+client/dist/
+client/build/
+server/dist/
+
+# Logs
+*.log
+
+# Lock files (optional if you're switching environments)
+client/package-lock.json
+server/package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
